@@ -1,6 +1,6 @@
 import * as React from "react";
 import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
-import JobsSearchPage from "./pages/JobsSearchPage";
+import JobsSearchPage from "./pages/JobSearchPage";
 import "./App.css";
 
 const theme = createTheme({
