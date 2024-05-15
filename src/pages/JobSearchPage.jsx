@@ -48,7 +48,7 @@ const JobsSearchPage = () => {
     <>
       <JobFilters appliedFilters={appliedFilters} />
       <Typography variant="body1" textAlign="center" gutterBottom>
-        Total Matching Jobs :{" "}
+        Matched Jobs: &nbsp;
         {isLoading || isIOIntersecting ? (
           <CircularProgress color="inherit" disableShrink size="16px" />
         ) : (
